@@ -1,19 +1,20 @@
 /* Root color palette */
 :root {
   --black: #000000;
-  --black-soft: #2d2d2d;
-  --white: #FFFFFF;
+  --black-soft: #151515;
+  --white: #ffffff;
   --white-soft: #f5f5f5;
-  --red: #FF1700;
+  --red: #ff1700;
   --red-dark: #932a24;
-  --orange: #FF8E00;
-  --yellow: #F7EC09;
-  --green: #3EC70B;
-  --blue: #3B44F6;
+  --orange: #ff8e00;
+  --yellow: #f7ec09;
+  --green: #237E02;
+  --blue: #014CC6;
+  --blue-light: #84B0F5;
   --blue-dark: #475270;
-  --purple: #A149FA;
-  --pink: #FF008E;
-  --pink-light: #f5e6f3;
+  --purple: #a149fa;
+  --pink: #ff008e;
+  --pink-light: #FCB6DB;
 }
 
 /* BLACK */
@@ -96,6 +97,13 @@
 }
 .bg-blue-dark {
   background-color: var(--blue-dark);
+}
+
+.text-blue-light {
+  color: var(--blue-light);
+}
+.bg-blue-light {
+  background-color: var(--blue-light);
 }
 
 /* PURPLE */

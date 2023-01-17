@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Recipe Bork",
+      "url": "https://recipe-bork.surge.sh",
+      "description": "Recipe book for family recipes"
+    },
+    {
+      "title": "Tappin Coloring Game",
+      "url": "https://tappin-coloring-game.surge.sh",
+      "description": "A basic coloring site, originally named by my young daughter. Save to your home screen to reduce the amount of browser operations your child can do without your supervision."
+    },
+    {
+      "title": "Score Tracker",
+      "url": "https://score-tracker.surge.sh",
+      "description": "Keep track of 2 player score while playing a game such as Scrabble, Rummy, and dominoes."
+    },
+    {
+      "title": "Color Cues",
+      "url": "https://color-cues.surge.sh",
+      "description": "A group game of 2 or more players where a hinter describes a random color and a guesser does their best to select the color."
+    },
+    {
+      "title": "Wordl",
+      "url": "https://wordl.surge.sh",
+      "description": "Do you even wordl bruh?"
+    },
+    {
+      "title": "My Trekisode",
+      "url": "https://missalyss.github.io/my-trekisode/",
+      "description": "A very silly site that let's you know the closest Star Trek episode to the day you were born (or any given date really). Why would you want to know that? Who knows. But you can. 🙅🏻‍♀️ JK, you can't."
+    }
+  ]
+}
