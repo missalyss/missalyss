@@ -1,7 +1,9 @@
+import { testFriend } from "fabric-store";
 const About = () => {
+testFriend()
   return (
     <>
-      <h1 className="bg-blue">Hello!</h1>
+      <h1 className="bg-blue pt3 pb3">Hello!</h1>
       <h2 className="bg-purple">My name is Alyssa. (she/her/they/them)</h2>
       <p className="bg-green p2 text-left">I'm a front end developer in the web. I'm also a mom, step-mom, costumer, feminist, and shameless living-room dancer.</p>
       <p className="bg-green p2 text-left">I love coffee, bees, books, music, and Halloween.</p>
