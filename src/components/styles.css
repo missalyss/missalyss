@@ -1,3 +1,7 @@
 .list-inside {
   list-style-position: inside;
 }
+
+.max-width {
+  max-width: 786px;
+}

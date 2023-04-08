@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && mv build/index.html build/200.html && surge build",
-    "lint": "prettier --write 'src/**/*'"
+    "lint": "prettier --write 'src/**/*' --ignore-path .prettierignore"
   },
   "eslintConfig": {
     "extends": [

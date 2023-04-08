@@ -13,8 +13,15 @@ const Projects = () => {
         {data.projects.map(({ description, url, title }, i) => {
           return (
             <li key={`projects-list-${i}`} className="">
-              <ExternalLink className="bg-blue text-white p3 m1" href={url} text={title} iconColor="#FFFFFF" />
-              <p className="bg-blue-light p3 flex flex-wrap text-black m1">{description}</p>
+              <ExternalLink
+                className="bg-blue text-white p3 m1"
+                href={url}
+                text={title}
+                iconColor="#FFFFFF"
+              />
+              <p className="bg-blue-light p3 flex flex-wrap text-black m1">
+                {description}
+              </p>
             </li>
           );
         })}

@@ -1,7 +1,10 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-green pl4 pt2 pb2 mb3 md-font" >Made with ❤️☕️📚 by missalyss</footer>{" "}
+      <footer className="bg-blue-light pl4 pt2 pb2 mb3 text-md flex justify-center align-center">
+        <p className="inline pr3">Made with ❤️☕️📚 by missalyss</p>
+        <span className="text-xs inline">{new Date().getFullYear()}</span>
+      </footer>
     </>
   );
 };
