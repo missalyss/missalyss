@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Projects from "./projects";
+import Resume from "./resume/resume";
 import About from "./about";
 import Nav from "./nav";
 import Footer from "./footer";
@@ -14,6 +15,10 @@ const HomePage = () => {
     {
       path: "/projects",
       element: <Projects />,
+    },
+    {
+      path: "/resume",
+      element: <Resume />,
     },
   ]);
 

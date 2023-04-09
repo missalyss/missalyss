@@ -1,12 +1,14 @@
 import React from "react";
 import ExternalLink from "../../pattern-lib/components/external-link";
 import data from "./data.json";
+import "../styles.css";
 
 const Projects = () => {
   return (
-    <>
-      <p>
-        Most all projects are available to save to your home screen on a mobile
+    <div className="max-width mx-auto">
+      <h1 className=" p2 bg-green">projects</h1>
+      <p className="p2 bg-green-light">
+        Most projects are available to save to your home screen on a mobile
         device.
       </p>
       <ul>
@@ -14,19 +16,19 @@ const Projects = () => {
           return (
             <li key={`projects-list-${i}`} className="">
               <ExternalLink
-                className="bg-blue text-white p3 m1"
+                className="bg-green text-white bold p3"
                 href={url}
                 text={title}
                 iconColor="#FFFFFF"
               />
-              <p className="bg-blue-light p3 flex flex-wrap text-black m1">
+              <p className="bg-green-light p3 flex flex-wrap text-black">
                 {description}
               </p>
             </li>
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 
