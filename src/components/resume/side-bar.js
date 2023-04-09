@@ -1,4 +1,4 @@
-import "../styles.css"
+import "../styles.css";
 
 const Sidebar = () => {
   return (
@@ -16,7 +16,7 @@ const Sidebar = () => {
         <span>March 2014</span>
         <p>B.A. in Comparative History of Ideas (3.8 GPA)</p>
         <span className="bold block">University of Washington</span>
-        <span >Seattle, WA</span>
+        <span>Seattle, WA</span>
       </article>
     </aside>
   );
