@@ -1,14 +1,6 @@
-# Welcome to a missalyss helgabones site
+# Welcome! I'm Alyssa Helgason
 
-## TODO
-[ ] Feature 1
+I'm an energetic, passionate, and friendly engineer who naturally gravitates toward leadership and educational challenges. My objective is to empower the engineering team to drive business by making the best possible experiences for all users. I lead with thoughtful consideration for security, accessibility, current trends, and developer ease of development.
 
-[ ] Feature 2
-
-
-## Project details
-1.
-1.
-
-
-[missalyss repos](https://github.com/missalyss?tab=repositories)
+[Personal coding projects](https://github.com/missalyss?tab=repositories)
+[Linked in](https://www.linkedin.com/in/alyssa-m-evans)
